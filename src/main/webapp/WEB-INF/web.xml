@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>Project</display-name>
+  <servlet>
+  <servlet-name>ABC</servlet-name>
+  <servlet-class>model.OtpServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ABC</servlet-name>
+  <url-pattern>/OtpServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ABCD</servlet-name>
+  <servlet-class>model.OtpSubmit</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ABCD</servlet-name>
+  <url-pattern>/OtpSubmit</url-pattern>
+  </servlet-mapping>
+</web-app>
